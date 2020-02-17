@@ -77,7 +77,7 @@ void draw(){
   
  
   
-    background(0,0,0);
+    background(0,0,255);
    
   image(nightsky,0,0);
   if(k==1){
