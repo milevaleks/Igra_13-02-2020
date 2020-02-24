@@ -18,13 +18,15 @@ void gameover(){
   rt+=.01;
   image(ert,0,0);
   popMatrix();
-  image(apolo,350,175,250,250);
-  image(car,350,462);
-  textSize(30);
-  text("Your score :",350,320);
-  text(scr,350,370);
+  image(apolo2,75,175,250,250);
+  image(apolo,625,175,250,250);
+  image(ship,350,380);
+  textSize(40);
+  text("Your score :",350,175);
+  text(scr,350,220);
+  textSize(20);
+  text("PRESS R TO RESTART",350,255);
   textSize(10);
-  text("PRESS R TO RESTART",350,400);
  }
  s++;
  reset();
