@@ -1,4 +1,4 @@
-  PImage you,others,ert,car,spaceship,apolo,sky;
+  PImage you,others,ert,ship,spaceship,apolo,apolo2,sky;
   float rt;
   PFont myFont;
 
@@ -49,9 +49,10 @@ void setup(){
   sky=loadImage("moon.jpg");
   you=loadImage("korab1.png");
   ert=loadImage("earth.png");
-  car=loadImage("car.png");
+  ship=loadImage("spaceship5.png");
   spaceship=loadImage("spaceship2.jpg");
-  apolo=loadImage("apolo2.png");
+  apolo=loadImage("apolo.png");
+  apolo2=loadImage("apolo2.png");
   others=loadImage("korab2.png");
 
     for(int i=0;i<=3;i++){
