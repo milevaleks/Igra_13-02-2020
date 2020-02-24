@@ -1,4 +1,4 @@
-  PImage you,others,ert,car,car2,licence,nightsky;
+  PImage you,others,ert,car,spaceship,apolo,sky;
   float rt;
   PFont myFont;
 
@@ -46,12 +46,12 @@ void setup(){
   myFont = createFont("Impact", 32);
   textFont(myFont);
   textAlign(CENTER, CENTER);
-  nightsky=loadImage("Beehive.jpg");
+  sky=loadImage("moon.jpg");
   you=loadImage("korab1.png");
   ert=loadImage("earth.png");
   car=loadImage("car.png");
-  car2=loadImage("car2.png");
-  licence=loadImage("lic.png");
+  spaceship=loadImage("spaceship2.jpg");
+  apolo=loadImage("apolo2.png");
   others=loadImage("korab2.png");
 
     for(int i=0;i<=3;i++){
@@ -62,7 +62,7 @@ void setup(){
 }
 void draw(){
  background(#0C0D1F);
-  image(nightsky,0,0);
+  image(sky,0,0);
     if(k==1){
       d=0;
       n=0;
@@ -84,7 +84,7 @@ void draw(){
     }
     if(r==2){
      imageMode(CENTER);
-     image(nightsky, 700, 700);
+     image(sky, 700, 700);
        for(int i=0;i<=6;i++){
         noStroke();   
         }
