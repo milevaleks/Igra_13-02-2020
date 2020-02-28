@@ -20,7 +20,7 @@
    return int(random(-60,-59));
   }
   int rs(){
-    return int(random(2));
+   return int(random(2));
   }
   int[]cx={rx1(),rx1(),rx2(),rx2()};
   int[]cx1={rx1(),rx1(),rx2(),rx2()};
@@ -48,8 +48,8 @@ void setup(){
   textAlign(CENTER, CENTER);
   sky=loadImage("moon.jpg");
   you=loadImage("korab1.png");
-  ert=loadImage("earth.png");
-  ship=loadImage("spaceship5.png");
+  ert=loadImage("planeta.png");
+  ship=loadImage("aaa2.png");
   spaceship=loadImage("spaceship2.jpg");
   apolo=loadImage("apolo.png");
   apolo2=loadImage("apolo2.png");
