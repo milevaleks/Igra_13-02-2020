@@ -20,7 +20,7 @@ void gameover(){
   popMatrix();
   image(apolo2,75,175,250,250);
   image(apolo,625,175,250,250);
-  image(ship,350,380);
+  image(ship,350,400);
   textSize(40);
   text("Your score :",350,175);
   text(scr,350,220);
