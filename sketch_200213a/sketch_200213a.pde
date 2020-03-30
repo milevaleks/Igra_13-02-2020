@@ -51,8 +51,8 @@ void setup(){
   ert=loadImage("planeta.png");
   ship=loadImage("aaa2.png");
   spaceship=loadImage("spaceship2.jpg");
-  apolo=loadImage("apolo.png");
-  apolo2=loadImage("apolo2.png");
+  apolo2=loadImage("astronaut1.png");
+  apolo=loadImage("astronaut2.png");
   others=loadImage("korab2.png");
 
     for(int i=0;i<=3;i++){
