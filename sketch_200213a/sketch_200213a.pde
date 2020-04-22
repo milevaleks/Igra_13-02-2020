@@ -1,7 +1,7 @@
   PImage you,others,ert,car,spaceship,apolo,sky;
   float rt;
   PFont myFont;
-
+  boolean start = false;
   int r=0;
   int s=0;
   int p=0;
@@ -74,15 +74,28 @@ void draw(){
       dvp=2;
     }
   imageMode(CENTER); 
-    if(r==0){
+  if(mouseY> height/3-19&&mouseY<height/3-19+50&&mouseX>width/2-65&&mouseX<width/2-65+130){
+    start=true;
+  }
+    
+      fill(0);
+     rect(width/2-65, height/3-19, 130 ,50);
+    
      fill(255);
      textSize(50);
-     text("PRESS R TO START",width/2,height/2);
-    }
+     text("START",width/2,height/3);
+    
+     fill(0);
+     rect(width/2-125, height/3+60, 250 ,50);
+    
+     fill(255);
+     textSize(50);
+     text("CHANGE MAP",width/2,height/3+80);
+     
     if(r==1){
      gameover();
     }
-    if(r==2){
+    if(start==true){
      imageMode(CENTER);
      image(sky, 700, 700);
        for(int i=0;i<=6;i++){
@@ -138,6 +151,7 @@ void draw(){
 
   }
 }
+
 
 void keyPressed(){
   if(keyCode == 32){
