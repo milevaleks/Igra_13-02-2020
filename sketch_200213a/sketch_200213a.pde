@@ -1,4 +1,4 @@
-  PImage you,others,ert,car,spaceship,apolo,sky;
+  PImage you,others,ert,ship,spaceship,apolo,apolo2,sky;
   float rt;
   PFont myFont;
   boolean start = false;
@@ -20,7 +20,7 @@
    return int(random(-60,-59));
   }
   int rs(){
-    return int(random(2));
+   return int(random(2));
   }
   int[]cx={rx1(),rx1(),rx2(),rx2()};
   int[]cx1={rx1(),rx1(),rx2(),rx2()};
@@ -48,10 +48,11 @@ void setup(){
   textAlign(CENTER, CENTER);
   sky=loadImage("moon.jpg");
   you=loadImage("korab1.png");
-  ert=loadImage("earth.png");
-  car=loadImage("car.png");
+  ert=loadImage("planeta.png");
+  ship=loadImage("aaa2.png");
   spaceship=loadImage("spaceship2.jpg");
-  apolo=loadImage("apolo2.png");
+  apolo2=loadImage("astronaut1.png");
+  apolo=loadImage("astronaut2.png");
   others=loadImage("korab2.png");
 
     for(int i=0;i<=3;i++){
